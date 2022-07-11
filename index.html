@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Subway People Counter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="heading">
+    <h1 class = "Heading">People Counter WebApp</h1>
+  </div>
+  <h1>People Entered:</h1>
+  <h2 id="count">0</h2>
+  <!-- The onclick attribute is an eventlistener, and it is assigned to a function, which we define in the JS file -->
+  <button id="increment-btn" onclick="increment()">INCREMENT</button>
+  <button id="save-btn" onclick="save()">SAVE</button>
+  <div class="">
+    <p id="save-el">Previous Entries: </p>
+  </div>
+  <div class="about">
+    <h1>About the Project</h1>
+    <p>This project was done, as an introduction to JavaScript
+      As I am learning the language I want to take a project-based learning approach.
+      Thank you to Per Harold Borgen for providing the necessary information needed to build this project
+
+    </p>
+
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
